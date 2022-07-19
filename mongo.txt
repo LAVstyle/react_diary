@@ -1,0 +1,13 @@
+db.users.insert({
+    name: 'Andrei',
+    nickname: 'LAVstyle',
+    age: 24
+})
+
+db.users.insertMany([
+    {name: "Alexandra", nickname: "Boss", age: 24},
+    {name: "Irina", nickname: "Madam", age: 24},
+    {name: "Maxim", nickname: "Maximum", age: 23},
+    {name: "Mihail", nickname: "Bondar", age: 18},
+    {name: "Stat", nickname: "Long", age: 20}
+])
